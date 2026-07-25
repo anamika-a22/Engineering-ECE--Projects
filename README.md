@@ -29,7 +29,3 @@ This repository serves as a collection of my academic and personal projects deve
 First-Year Electronics and Communication Engineering (ECE)
 
 ⭐ Thank you for visiting my repository. 
-
-
-📄 License
-This project is for educational purposes only.
