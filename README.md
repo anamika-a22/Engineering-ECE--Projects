@@ -45,7 +45,7 @@ GSM/Wi-Fi alerts
 Higher accuracy using advanced algorithms
 Mobile application for monitoring
 
-👩‍💻 Author
+👩‍💻 Author:
 Anamika A
 First-Year Electronics and Communication Engineering (ECE)
 
