@@ -1,31 +1,55 @@
-# Engineering ECE Projects
+# Gunshot Location Detection
 
-This repository serves as a collection of my academic and personal projects developed during my Bachelor of Engineering (B.E.) in Electronics and Communication Engineering. It showcases my learning, practical implementations, and technical skills in embedded systems, Arduino, electronics, circuit design, and related technologies.
+## 📌 Project Overview
+Gunshot Location Detection is a mini project developed for Electronics and Communication Engineering (ECE). The system detects the direction of a gunshot or loud sound using multiple sound sensors connected to an Arduino Uno. By comparing the sound intensity received by each sensor, the system estimates the direction of the sound source.
 
-## 📂 Repository Contents
-- Project Reports
-- Arduino Source Code
-- Circuit Diagrams
-- Presentations (PPT)
-- Images and Documentation
-- Future ECE Projects
+## 🎯 Objectives
+- Detect the direction of a gunshot or loud sound.
+- Compare sound signals from multiple sensors.
+- Indicate the detected direction using Arduino.
+- Demonstrate a simple, low-cost sound detection system.
 
-## 🎯 Purpose
-- Showcase my Electronics and Communication Engineering projects.
-- Document my academic and practical work.
-- Improve my technical and problem-solving skills.
-- Build a professional engineering portfolio.
+## 🛠 Components Used
+- Arduino Uno
+- 3 × KY-038 Sound Sensors
+- Breadboard
+- Jumper Wires
+- Buzzer
+- 220Ω Resistor
+- USB Cable
 
-## 🛠️ Technologies & Tools
+## ⚙ Working Principle
+1. Three sound sensors are placed in different directions.
+2. When a loud sound is detected, each sensor measures the sound intensity.
+3. The Arduino compares the sensor readings.
+4. The sensor with the highest reading indicates the direction of the sound.
+5. The buzzer provides an alert, and the detected direction is displayed through the Serial Monitor.
+
+## 💻 Software Used
 - Arduino IDE
-- Embedded C
-- C/C++
-- Electronics Circuits
-- Sensors and Microcontrollers
-- Git & GitHub
+- Embedded C (Arduino Programming)
+
+## 📂 Project Features
+- Low-cost prototype
+- Easy to build
+- Real-time sound direction detection
+- Suitable for educational demonstrations
+
+## 📸 Output
+The system identifies the direction of a loud sound as:
+- LEFT
+- CENTER
+- RIGHT
+
+## 🚀 Future Improvements
+- Add GPS for location tracking.
+- Use higher-quality microphones for better accuracy.
+- Integrate wireless communication for remote monitoring.
+- Apply signal processing to reduce background noise.
 
 ## 👩‍💻 Author
 **Anamika A**  
-First-Year Electronics and Communication Engineering (ECE)
+B.E. Electronics and Communication Engineering (ECE)
 
-⭐ Thank you for visiting my repository. 
+---
+This project was developed as an academic mini project for learning sound sensing and Arduino-based embedded systems.
